@@ -9,7 +9,7 @@ function ProductCard({ product }) {
       <span className={styles.productCategory}>{product.category}</span>
       <p className={styles.productDescription}>{product.description}</p>
       <p className={styles.productPrice}>{product.price.toFixed(2)} €</p>
-      <Link to={`/products/${product.id}`} className={styles.productLink}>
+      <Link to={`/products/${product.urlFriendly}`} className={styles.productLink}>
         Ver detalles
       </Link>
     </div>

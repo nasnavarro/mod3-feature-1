@@ -2,6 +2,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '1',
     name: 'Camiseta Básica',
+    urlFriendly: 'camiseta-basica',
     category: 'Camisetas',
     description: 'Camiseta de algodón 100%, cómoda y duradera. Disponible en varios colores.',
     price: 19.99,
@@ -12,6 +13,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '2',
     name: 'Sudadera con Capucha',
+    urlFriendly: 'sudadera-con-capucha',
     category: 'Sudaderas',
     description: 'Sudadera cálida con capucha ajustable y bolsillo canguro.',
     price: 39.99,
@@ -22,6 +24,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '3',
     name: 'Pantalón Chino',
+    urlFriendly: 'pantalon-chino',
     category: 'Pantalones',
     description: 'Pantalón chino de corte slim, ideal para looks casuales o formales.',
     price: 34.5,
@@ -32,6 +35,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '4',
     name: 'Zapatillas Urbanas',
+    urlFriendly: 'zapatillas-urbanas',
     category: 'Zapatillas',
     description: 'Zapatillas ligeras con suela de goma antideslizante.',
     price: 59.99,
@@ -42,6 +46,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '5',
     name: 'Gorra Clásica',
+    urlFriendly: 'gorra-clasica',
     category: 'Accesorios',
     description: 'Gorra ajustable con visera curva y bordado frontal.',
     price: 14.99,
@@ -52,6 +57,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '6',
     name: 'Chaqueta Vaquera',
+    urlFriendly: 'chaqueta-vaquera',
     category: 'Chaquetas',
     description: 'Chaqueta vaquera clásica con botones metálicos y bolsillos frontales.',
     price: 49.99,
@@ -62,6 +68,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '7',
     name: 'Calcetines Pack x3',
+    urlFriendly: 'calcetines-pack-x3',
     category: 'Accesorios',
     description: 'Pack de tres pares de calcetines de algodón transpirable.',
     price: 9.99,
@@ -72,6 +79,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '8',
     name: 'Mochila Urbana',
+    urlFriendly: 'mochila-urbana',
     category: 'Accesorios',
     description: 'Mochila resistente al agua con compartimento acolchado para portátil.',
     price: 44.99,
@@ -82,6 +90,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '9',
     name: 'Cinturón de Cuero',
+    urlFriendly: 'cinturon-de-cuero',
     category: 'Accesorios',
     description: 'Cinturón de cuero genuino con hebilla metálica clásica.',
     price: 24.99,
@@ -92,6 +101,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '10',
     name: 'Bufanda de Punto',
+    urlFriendly: 'bufanda-de-punto',
     category: 'Accesorios',
     description: 'Bufanda de punto grueso, suave y abrigada para el invierno.',
     price: 17.99,
@@ -102,6 +112,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '11',
     name: 'Camisa de Lino',
+    urlFriendly: 'camisa-de-lino',
     category: 'Camisetas',
     description: 'Camisa ligera de lino con caída relajada, ideal para el verano.',
     price: 29.99,
@@ -112,6 +123,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '12',
     name: 'Vestido Midi',
+    urlFriendly: 'vestido-midi',
     category: 'Vestidos',
     description: 'Vestido midi de corte fluido, perfecto para el día a día.',
     price: 42.99,
@@ -122,6 +134,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '13',
     name: 'Botas Chelsea',
+    urlFriendly: 'botas-chelsea',
     category: 'Zapatillas',
     description: 'Botas Chelsea de perfil robusto y acabado mate, resistentes al agua.',
     price: 79.99,
@@ -132,6 +145,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '14',
     name: 'Gafas de Sol Redondas',
+    urlFriendly: 'gafas-de-sol-redondas',
     category: 'Accesorios',
     description: 'Gafas de sol con montura suave y aire retro.',
     price: 24.99,
@@ -142,6 +156,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '15',
     name: 'Reloj Minimalista',
+    urlFriendly: 'reloj-minimalista',
     category: 'Accesorios',
     description: 'Reloj con caja metálica y esfera limpia, correa de cuero.',
     price: 89.99,
@@ -152,6 +167,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '16',
     name: 'Abrigo Largo',
+    urlFriendly: 'abrigo-largo',
     category: 'Chaquetas',
     description: 'Abrigo largo con líneas limpias y caída suave para el día a día.',
     price: 129.99,
@@ -162,6 +178,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '17',
     name: 'Chaqueta de Cuero',
+    urlFriendly: 'chaqueta-de-cuero',
     category: 'Chaquetas',
     description: 'Chaqueta de cuero sintético con cremalleras y silueta entallada.',
     price: 89.99,
@@ -172,6 +189,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '18',
     name: 'Falda Plisada',
+    urlFriendly: 'falda-plisada',
     category: 'Vestidos',
     description: 'Falda plisada de largo midi, versátil y fácil de combinar.',
     price: 32.99,
@@ -182,6 +200,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '19',
     name: 'Bolso Bandolera',
+    urlFriendly: 'bolso-bandolera',
     category: 'Accesorios',
     description: 'Bolso estructurado para looks diarios y escapadas de fin de semana.',
     price: 54.99,
@@ -192,6 +211,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '20',
     name: 'Zapatillas Running',
+    urlFriendly: 'zapatillas-running',
     category: 'Zapatillas',
     description: 'Sneaker urbana pensada para ritmo diario y comodidad visual.',
     price: 74.99,
@@ -202,6 +222,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '21',
     name: 'Camiseta Estampada',
+    urlFriendly: 'camiseta-estampada',
     category: 'Camisetas',
     description: 'Camiseta de algodón con estampado gráfico frontal.',
     price: 22.99,
@@ -212,6 +233,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '22',
     name: 'Pantalón Jogger',
+    urlFriendly: 'pantalon-jogger',
     category: 'Pantalones',
     description: 'Pantalón jogger cómodo con puños ajustados y bolsillos laterales.',
     price: 27.99,
@@ -222,6 +244,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '23',
     name: 'Sandalias de Verano',
+    urlFriendly: 'sandalias-de-verano',
     category: 'Zapatillas',
     description: 'Sandalias ligeras con plantilla acolchada, ideales para el calor.',
     price: 19.99,
@@ -232,6 +255,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '24',
     name: 'Vestido de Fiesta',
+    urlFriendly: 'vestido-de-fiesta',
     category: 'Vestidos',
     description: 'Vestido de fiesta con caída elegante, para ocasiones especiales.',
     price: 69.99,
@@ -242,6 +266,7 @@ export const MOCK_PRODUCTS = [
   {
     id: '25',
     name: 'Pañuelo de Seda',
+    urlFriendly: 'panuelo-de-seda',
     category: 'Accesorios',
     description: 'Pañuelo de seda con estampado exclusivo, versátil como complemento.',
     price: 16.99,

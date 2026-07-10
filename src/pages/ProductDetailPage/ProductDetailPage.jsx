@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 import {useState} from 'react'
 
 function ProductDetailPage() {
-  const {id} = useParams()
-  const product = MOCK_PRODUCTS.find(p => p.id === id)
+  const {urlFriendly} = useParams()
+  const product = MOCK_PRODUCTS.find(p => p.urlFriendly === urlFriendly)
   const [quantity, setQuantity] = useState(1)
 
   // Función para aumentar la cantidad, asegurándose de no superar el stock disponible
